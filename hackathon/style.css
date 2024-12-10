@@ -1,0 +1,170 @@
+/* General Layout */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* Dashboard */
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Progress Section */
+  .progress-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #ddd;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+  }
+  
+  .progress-section p {
+    text-align: center;
+    color: #666;
+  }
+  
+  /* Recommendations Section */
+  .recommendations-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recommendations-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .recommendations-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recommendations-section li {
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Recent Activities Section */
+  .activities-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activities-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .activities-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .activities-section li {
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Chatbot Section */
+  .chatbot-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chatbot-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .chatbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .messages {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .chatbox input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chatbox button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chatbox button:hover {
+    background-color: #45a049;
+  }
+
